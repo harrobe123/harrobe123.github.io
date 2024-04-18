@@ -1,1 +1,1 @@
-function login() {location.href="LoginPage.html"}
+function signup() {location.href="LoginPage.html"}
