@@ -1,36 +1,23 @@
-button {
-  border-radius: 5px;
-  border: solid;
-  border-color: #3d05e8;
-  background-color: #4baaf2;
-  width: 90%;
-  height: 100%;
+#topBar {
+  background-color: #292929;
+  position: absolute;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  left: 0;
 }
 
-#Login_Form {
-  background-color: rgb(214, 214, 214);
-  border-radius: 20px;
-  margin: auto;
-  display: grid;
-  place-items: center;
-  place-self: center;
-  width: 1000px;
-  height: 500px;
+#LogIn {
+  position: absolute;
+  right: 1%;
+  top: 15%;
+  background-color: blueviolet;
+  border: solid 2px;
+  border-radius: 8px;
+  height: 70%;
+  width: 10%;
 }
+
 body {
-  display: grid;
-  background-image: url("Firefly_calming_nature_with_trees_and_waterfalls_81279-transformed.jpeg");
-  place-items: center;
+  background-color: #171717;
 }
-h2 {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: white;
-}
-span {
-  font-weight: bold;
-}
-input{border-radius: 20px;
-width: 90% ;
-height: 100%;}
