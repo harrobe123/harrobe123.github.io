@@ -1,5 +1,5 @@
 #topBar {
-  background-color: #292929;
+  background-color: #171717;
   position: absolute;
   top: 0;
   height: 10%;
@@ -15,17 +15,18 @@
   border: solid #b0b0b0 2px;
   border-radius: 10%;
   height: 70%;
-  width: 10%;
+  width: 5%;
+ background-color: #171717;
 }
 
 body {
-  background-color: #171717;
+  background-color: #292929;
 }
 #BrandName {
     font-family: "Jersey 25", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20%;
+    font-size: 80%;
     color:white;
     position:absolute;
     left:5% 
