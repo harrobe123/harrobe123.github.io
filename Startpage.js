@@ -1,0 +1,1 @@
+login() {location.href="LoginPage.html"}
