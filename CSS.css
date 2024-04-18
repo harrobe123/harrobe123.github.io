@@ -5,10 +5,10 @@
   height: 10%;
   width: 100%;
   left: 0;
-  border:solid #808080;
+  border-bottom:solid #808080;
 }
 
-#LogIn {
+#Login {
   position: absolute;
   right: 1%;
   top: 15%;
