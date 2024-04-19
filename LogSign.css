@@ -1,11 +1,13 @@
 #SignupForm,
 #LoginForm {
-    width: 60%;
-    height: 80%;
-    background-color: #080217;
+    width: 80%;
+    height: 60%;
+    background-color: #23192b;
     position: absolute;
     top: 25%;
     left: 20%;
+    border:solid #808080;
+    border-radius:20%;
 }
 
 body {
@@ -31,7 +33,7 @@ body {
     color: white;
     position: absolute;
     left: 5%;
-    top:-30%;
+    top:15%;
 }
 
 a:link,
