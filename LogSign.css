@@ -1,11 +1,11 @@
-div {
+#SignupForm, #LoginForm {
     width: 80%;
     height: 80%;
     background-color: #080217;
 }
 
 body {
-    background-color: #060a1a;
+    background-color: #292929;
 }
 
 #topBar {
@@ -18,17 +18,6 @@ body {
     border-bottom: solid 2px #808080;
 }
 
-#Login {
-    position: absolute;
-    right: 1%;
-    top: 15%;
-    border: solid #b0b0b0 2px;
-    border-radius: 10%;
-    height: 70%;
-    width: 10%;
-    background-color: #171717;
-    color: white;
-}
 
 .BrandName {
     font-family: "Jersey 25", sans-serif;
@@ -38,15 +27,4 @@ body {
     color: white;
     position: absolute;
     left: 5%;
-}
-#Signup {
-    position: absolute;
-    right: 1%;
-    top: 15%;
-    border: solid #b0b0b0 2px;
-    border-radius: 10%;
-    height: 70%;
-    width: 10%;
-    background-color: #171717;
-    color: white;
 }
