@@ -1,6 +1,6 @@
 function signup() {
-  location.href = "Signup";
+  location.href = "Signup.href";
 }
 function login() {
-  location.href = "Login";
+  location.href = "Login.href";
 }
