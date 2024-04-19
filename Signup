@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="topBar">
-      <a href="index.html" class="BrandName">HALO</a>
+      <a href="index" class="BrandName">HALO</a>
     </div>
     <div id="SignupForm"><form></form></div>
   </body>
