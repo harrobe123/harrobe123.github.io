@@ -1,7 +1,13 @@
-div {width:80%;
-height:80%
-background-color:}
-body{background-color:#060a1a ;}
+div {
+    width: 80%;
+    height: 80%;
+    background-color: #080217;
+}
+
+body {
+    background-color: #060a1a;
+}
+
 #topBar {
     background-color: #171717;
     position: absolute;
@@ -19,15 +25,28 @@ body{background-color:#060a1a ;}
     border: solid #b0b0b0 2px;
     border-radius: 10%;
     height: 70%;
-    width: 5%;
+    width: 10%;
     background-color: #171717;
+    color: white;
 }
-#BrandName {
+
+.BrandName {
     font-family: "Jersey 25", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 80%;
     color: white;
     position: absolute;
-    left: 5%
+    left: 5%;
+}
+#Signup {
+    position: absolute;
+    right: 1%;
+    top: 15%;
+    border: solid #b0b0b0 2px;
+    border-radius: 10%;
+    height: 70%;
+    width: 10%;
+    background-color: #171717;
+    color: white;
 }
