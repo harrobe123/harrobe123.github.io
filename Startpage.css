@@ -1,4 +1,4 @@
-#topBar {
+header {
   background-color: #171717;
   position: absolute;
   top: 0;
@@ -8,40 +8,10 @@
   border-bottom: solid 2px #808080;
 }
 
-#Signup {
-  position: absolute;
-  right: 1%;
-  top: 15%;
-  border: solid #b0b0b0 2px;
-  border-radius: 10%;
-  height: 70%;
-  width: 8%;
-  background-color: #171717;
-  color: white;
-}
 
 body {
-  background-color: #292929;
+  background-image: url(Website\ Picture.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.BrandName {
-  font-family: "Jersey 25", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 400%;
-  color: white;
-  position: absolute;
-  left: 5%;
-  top: -30%;
-}
-
-#Login {
-  position: absolute;
-  right: 10%;
-  top: 15%;
-  height: 70%;
-  width: 5%;
-  background-color: #171717;
-  color: white;
-  border: #171717 solid;
-}
