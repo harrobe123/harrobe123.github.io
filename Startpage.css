@@ -1,11 +1,13 @@
 header {
+  display: flex;
   background-color: #171717;
-  position: absolute;
-  top: 0;
   height: 10%;
   width: 100%;
-  left: 0;
   border-bottom: solid 2px #808080;
+  align-self: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
@@ -13,5 +15,11 @@ body {
   background-image: url(Website\ Picture.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  align-content: center;
 }
 
+#Logo {
+  height: 200%;
+  position: absolute;
+}
