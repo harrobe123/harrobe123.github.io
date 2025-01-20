@@ -103,7 +103,5 @@ header {
   .dropdown.active .dropdown-menu {
     display: block;
   }
-  .dropdown-btn:hover {
-  rotate: 95deg;
-}
+
 }
