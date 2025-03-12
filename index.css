@@ -30,6 +30,8 @@ body {
     align-content: flex-start;
     background-color: black;
     justify-content: start;
+    flex-wrap:wrap;
+    
 }
 
 #coolmiddle {
