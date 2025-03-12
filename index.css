@@ -12,7 +12,7 @@ body {
     display: flex;
     background-color: #242424;
     width: 100%;
-    padding: 3dvh;
+    padding: 20px;
     justify-content: flex-start;
 }
 
@@ -24,7 +24,7 @@ body {
     text-decoration: unset;
     border: none;
     text-decoration-color: transparent;
-    padding-left: 20px; 
+    padding-left: 3dvh; 
 }
 
 #Title:hover {
