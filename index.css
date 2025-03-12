@@ -1,20 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 #topbar {
     display: flex;
     background-color: #242424;
     width: 100%;
-    height: 20%;
-    padding: 25px;
-    justify-self: flex-start;
-   
+    padding: 3dvh;
+    justify-content: flex-start;
 }
 
-#Title:hover {
-    text-decoration: underline;
-}
-
-#Title:visited,
-#Title:link,
-#Title:active,
 #Title {
     font-family: "Emblema One", system-ui;
     font-weight: 400;
@@ -23,21 +24,17 @@
     text-decoration: unset;
     border: none;
     text-decoration-color: transparent;
+    padding-left: 20px; 
 }
 
-body {
-    display: flex;
-    align-content: flex-start;
-    background-color: black;
-    justify-content: start;
-    flex-wrap:wrap;
-    
+#Title:hover {
+    text-decoration: underline;
 }
 
 #coolmiddle {
-    justify-self: center;
     display: flex;
-    color:white;
+    justify-content: center;
+    color: white;
     text-shadow:
     0 0 7px #ffffff,
     0 0 10px #fff,
@@ -47,4 +44,6 @@ body {
     0 0 92px #4b4b4b,
     0 0 102px #4b4b4b,
     0 0 151px #4b4b4b;
+    width: 100%;
+    flex-grow: 1;
 }
