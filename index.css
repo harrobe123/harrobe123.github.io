@@ -42,9 +42,11 @@ body {
 
 .glow {
     text-shadow:
-        0 0 7px #4b4b4b,
- color:white; }
+        0 0 7px floralwhite,
+        color:white;
+}
+
 #tools {
     justify-self: flex-start;
-    flex-grow:4;
+    flex-grow: 4;
 }
